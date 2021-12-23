@@ -1,4 +1,4 @@
-library pie_chart;
+library caviare_flutter_pie_chart;
 
 export 'src/chart_values_options.dart';
 export 'src/legend_options.dart';

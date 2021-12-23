@@ -1,6 +1,6 @@
+import 'package:caviare_flutter_pie_chart/pie_chart.dart';
+import 'package:caviare_flutter_pie_chart/src/utils.dart';
 import 'package:flutter/material.dart';
-import 'package:pie_chart/pie_chart.dart';
-import 'package:pie_chart/src/utils.dart';
 
 class LegendOptions {
   final bool showLegends;

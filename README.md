@@ -1,21 +1,21 @@
-# Pie Chart ![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/apgapg/pie_chart) [![GitHub stars](https://img.shields.io/github/stars/apgapg/pie_chart.svg?style=social)](https://github.com/apgapg/pie_chart) [![Twitter Follow](https://img.shields.io/twitter/url/https/@ayushpgupta.svg?style=social)](https://twitter.com/ayushpgupta) ![GitHub last commit](https://img.shields.io/github/last-commit/apgapg/pie_chart.svg) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://apgapg.github.io/)[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/apgapg/pie_chart) 
+# Pie Chart ![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/apgapg/caviare_flutter_pie_chart) [![GitHub stars](https://img.shields.io/github/stars/apgapg/caviare_flutter_pie_chart.svg?style=social)](https://github.com/apgapg/caviare_flutter_pie_chart) [![Twitter Follow](https://img.shields.io/twitter/url/https/@ayushpgupta.svg?style=social)](https://twitter.com/ayushpgupta) ![GitHub last commit](https://img.shields.io/github/last-commit/apgapg/caviare_flutter_pie_chart.svg) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://apgapg.github.io/)[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/apgapg/caviare_flutter_pie_chart) 
 
 This Flutter package provides a Pie Chart Widget with cool animation.
 
 ## 💻 Try LIVE Demo
 
-Live Demo: [https://apgapg.github.io/pie_chart/](https://apgapg.github.io/pie_chart/)
+Live Demo: [https://apgapg.github.io/caviare_flutter_pie_chart/](https://apgapg.github.io/caviare_flutter_pie_chart/)
 
-<img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/s10.png?raw=true"  width = "auto" alt="piechart">
+<img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/s10.png?raw=true"  width = "auto" alt="piechart">
 
 ## 💻 Installation
 In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
-[![Version](https://img.shields.io/pub/v/pie_chart.svg)](https://pub.dartlang.org/packages/pie_chart)
+[![Version](https://img.shields.io/pub/v/caviare_flutter_pie_chart.svg)](https://pub.dartlang.org/packages/caviare_flutter_pie_chart)
 
 ```yaml
 dependencies:
-  pie_chart: <latest version>
+  caviare_flutter_pie_chart: <latest version>
 ```
 
 ## ❔ Usage
@@ -23,12 +23,12 @@ dependencies:
 ### Import this class
 
 ```dart
-import 'package:pie_chart/pie_chart.dart';
+import 'package:caviare_flutter_pie_chart/caviare_flutter_pie_chart.dart';
 ```
 
 #### Usage is simple. Pie Chart is a widget and it just need a Map<String,double> as its data input.
 
-<img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/app.gif"  height = "400" alt="PieChart">
+<img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/app.gif"  height = "400" alt="PieChart">
 
 ```dart
 Map<String, double> dataMap = {
@@ -87,21 +87,21 @@ chartValuesOptions: ChartValuesOptions(
 
 ### Change legend position with 'legendPosition'
 
-<img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/s4.png"  height = "400" alt="PieChart"> <img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/s5.png"  height = "400" alt="PieChart"> <img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/s6.png"  height = "400" alt="PieChart"> <img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/s7.png"  height = "400" alt="PieChart">
+<img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/s4.png"  height = "400" alt="PieChart"> <img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/s5.png"  height = "400" alt="PieChart"> <img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/s6.png"  height = "400" alt="PieChart"> <img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/s7.png"  height = "400" alt="PieChart">
 
 ### Change Chart shape to ring
 
 ```dart
 chartType: ChartType.ring,
 ```
-<img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/s9.png"  height = "400" alt="PieChart">
+<img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/s9.png"  height = "400" alt="PieChart">
 
 ```dart
 chartType: ChartType.ring,
 showChartValuesOutside: true,
 ```
 
-<img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/s8.png"  height = "400" alt="PieChart">
+<img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/s8.png"  height = "400" alt="PieChart">
 
 ### Gradient Colors
 
@@ -131,7 +131,7 @@ emptyColorGradient: [
 ],
 ```
 
-<img src="https://raw.githubusercontent.com/apgapg/pie_chart/master/res/s11.png"  height = "400" alt="PieChart">
+<img src="https://raw.githubusercontent.com/apgapg/caviare_flutter_pie_chart/master/res/s11.png"  height = "400" alt="PieChart">
 
 ## ⭐ My Flutter Packages
 - [json_table](https://pub.dartlang.org/packages/json_table)  [![GitHub stars](https://img.shields.io/github/stars/apgapg/json_table.svg?style=social)](https://github.com/apgapg/json_table)  Create Flutter Json Table from json map directly.

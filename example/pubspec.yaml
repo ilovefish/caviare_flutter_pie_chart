@@ -20,7 +20,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  pie_chart:
+  caviare_flutter_pie_chart:
     path: ../
 
 dev_dependencies:

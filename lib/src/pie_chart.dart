@@ -1,6 +1,6 @@
+import 'package:caviare_flutter_pie_chart/pie_chart.dart';
+import 'package:caviare_flutter_pie_chart/src/chart_values_options.dart';
 import 'package:flutter/material.dart';
-import 'package:pie_chart/pie_chart.dart';
-import 'package:pie_chart/src/chart_values_options.dart';
 
 import 'chart_painter.dart';
 import 'legend.dart';
