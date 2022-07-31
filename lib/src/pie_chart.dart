@@ -172,52 +172,39 @@ class _PieChartState extends State<PieChart>
                       //     ),
                       //   ));
                       // }
-                      return Stack(
-                        fit: StackFit.expand,
-                        alignment: Alignment.center,
-                        children: <Widget>[
-                          Positioned(
-                            left: 45,
-                            child: Container(
-                              width: c.maxHeight,
-                              height: c.maxHeight,
-                              child: CustomPaint(
-                                painter: PieChartPainter(
-                                  _animFraction,
-                                  widget.chartValuesOptions.showChartValues,
-                                  widget.chartValuesOptions
-                                      .showChartValuesOutside,
-                                  widget.colorList,
-                                  chartValueStyle:
-                                      widget.chartValuesOptions.chartValueStyle,
-                                  chartValueBackgroundColor: widget
-                                      .chartValuesOptions
-                                      .chartValueBackgroundColor,
-                                  values: legendValues,
-                                  titles: legendTitles,
-                                  initialAngle: widget.initialAngleInDegree,
-                                  showValuesInPercentage: widget
-                                      .chartValuesOptions
-                                      .showChartValuesInPercentage,
-                                  decimalPlaces:
-                                      widget.chartValuesOptions.decimalPlaces,
-                                  showChartValueLabel: widget.chartValuesOptions
-                                      .showChartValueBackground,
-                                  chartType: widget.chartType,
-                                  centerText: widget.centerText,
-                                  centerTextStyle: widget.centerTextStyle,
-                                  formatChartValues: widget.formatChartValues,
-                                  strokeWidth: widget.ringStrokeWidth,
-                                  emptyColor: widget.emptyColor,
-                                  gradientList: widget.gradientList,
-                                  emptyColorGradient: widget.emptyColorGradient,
-                                ),
-                                child: AspectRatio(aspectRatio: 1),
-                              ),
-                            ),
+                      return Container(
+                        width: c.maxHeight,
+                        height: c.maxHeight,
+                        child: CustomPaint(
+                          painter: PieChartPainter(
+                            _animFraction,
+                            widget.chartValuesOptions.showChartValues,
+                            widget.chartValuesOptions.showChartValuesOutside,
+                            widget.colorList,
+                            chartValueStyle:
+                                widget.chartValuesOptions.chartValueStyle,
+                            chartValueBackgroundColor: widget
+                                .chartValuesOptions.chartValueBackgroundColor,
+                            values: legendValues,
+                            titles: legendTitles,
+                            initialAngle: widget.initialAngleInDegree,
+                            showValuesInPercentage: widget
+                                .chartValuesOptions.showChartValuesInPercentage,
+                            decimalPlaces:
+                                widget.chartValuesOptions.decimalPlaces,
+                            showChartValueLabel: widget
+                                .chartValuesOptions.showChartValueBackground,
+                            chartType: widget.chartType,
+                            centerText: widget.centerText,
+                            centerTextStyle: widget.centerTextStyle,
+                            formatChartValues: widget.formatChartValues,
+                            strokeWidth: widget.ringStrokeWidth,
+                            emptyColor: widget.emptyColor,
+                            gradientList: widget.gradientList,
+                            emptyColorGradient: widget.emptyColorGradient,
                           ),
-                          // ...buttons
-                        ],
+                          child: AspectRatio(aspectRatio: 1),
+                        ),
                       );
                     },
                   )),
@@ -225,7 +212,7 @@ class _PieChartState extends State<PieChart>
             widget.onBuildView != null
                 ? Expanded(
                     child: Container(
-                      height: 20,
+                      height: 18,
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         shrinkWrap: true,

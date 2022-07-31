@@ -111,7 +111,7 @@ class PieChartPainter extends CustomPainter {
         final y = (radius) * math.sin(45 * i * math.pi / 180);
         final x2 = x + 25;
         final y2 = y + 25;
-        _drawName(canvas, ((i * 3 + 6) % 24).toString(), x2, y2, side);
+        _drawName(canvas, ((i * 3 + 6) % 24).toString(), x2, y2, side, style: centerTextStyle);
       }
 
       // final radius = showChartValuesOutside ? (side / 2) + 16 : side / 3;
